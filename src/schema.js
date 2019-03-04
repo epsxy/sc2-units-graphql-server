@@ -1,6 +1,7 @@
 const typeDefs = `
   type Query {
     races: [SC2Race]
+    race(type: SC2RaceType): SC2Race
   }
 
   type SC2Race {
