@@ -2,6 +2,29 @@
 
 API for Starcraft II units in Graphql
 
+## Install 
+
+- `npm install`: install dependencies
+- `npm run mongo`: initialize Mongo database(`sc2graphql`)
+- `npm run serve`: run app on `localhost:3000`
+
+## Access GraphQL API
+
+Go to `http://localhost:3000/graphiql`
+
+Requests: 
+
+```
+{
+    races {
+        _id
+        name
+        description
+        type
+    }
+}
+```
+
 ## Disclaimer 
 
 *If there is any copyright infringement, any issue of that kind, please contact me. I do not own any right on Starcraft II or whatsoever and I will remove any content which does not respect your rights.*
