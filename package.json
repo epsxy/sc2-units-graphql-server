@@ -1,0 +1,29 @@
+{
+  "name": "apollo-graphql-server",
+  "version": "1.0.0",
+  "description": "Playground of a GraphQL server using Apollo",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node src/index.js",
+    "mongo": "mongo sc2graphql --eval \"db.dropDatabase()\" && mongoimport --db sc2graphql --collection races --type json --file db/races.json --jsonArray",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epsxy/apollo-graphql-server.git"
+  },
+  "author": "epsxy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epsxy/apollo-graphql-server/issues"
+  },
+  "homepage": "https://github.com/epsxy/apollo-graphql-server#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "mongoose": "^5.4.17"
+  }
+}
