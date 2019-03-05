@@ -23,7 +23,7 @@ const app = express();
 app.use("/graphql", bodyParser.json(), graphqlExpress({ schema }));
 
 // GraphiQL, a visual editor for queries
-app.use("/graphiql", graphiqlExpress({ endpointURL: "/graphql" }));
+app.use("/", graphiqlExpress({ endpointURL: "/graphql" }));
 
 // Start the server
 app.listen(3000, () => {
