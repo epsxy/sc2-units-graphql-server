@@ -1,0 +1,134 @@
+[
+  {
+    "_id": "3bc1ee90-c761-4c3f-af72-803878fb317e",
+    "name": "Drone",
+    "description": "The Drone is the basic worker unit for Zerg. It can harvest Minerals and Vespene Gas as well as build any Zerg structure at the cost of its life. Drones differ from Probes and SCVs in that they can only slowly regenerate health as opposed to the fast recharging shields of the Probe or the repairable 45 hit points of the SCV.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "56139cb7-326d-487f-856d-2bf23b95eebd",
+    "name": "Baneling",
+    "description": "The Baneling is a suicide bomber unit morphed from Zerglings after a Baneling Nest has been constructed. Similar to the Infested Terran from Brood War, the Baneling is a suicidal unit that deals significant splash damage.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "2c86deee-7da8-478d-90ce-bea75d4c48ce",
+    "name": "Zergling",
+    "description": "The Zergling is a small and fast melee attacker and the backbone of the Zerg army. Individual Zerglings are weak, but large groups can surround and terrorize enemy ground forces. In such groups, they soak a lot of incoming damage and provide a shield for more expensive units.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "845bf075-a24f-42e6-b425-4eb580a54b5a",
+    "name": "Broodling",
+    "description": "The Broodling is a small Zerg unit that is spawned when either a Zerg tech building, for example a Hatchery or Spawning Pool, is destroyed, or when a Brood Lord attacks an enemy unit. A Broodling is a temporary unit and once its duration bar (by default 8 game seconds) is depleted the unit will die, regardless of health.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "5cf810d1-f6d6-4bd5-aedb-edd29f27f3d8",
+    "name": "Broodlord",
+    "description": "The Brood Lord is a flying heavy-assault Zerg air-to-ground unit that spawns Broodlings when it attacks. The Brood Lord can be morphed from a Corruptor once the Zerg player has made a Greater Spire.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "7b7d764a-a994-4d6e-9e6e-2edf26575b80",
+    "name": "Changeling",
+    "description": "The Changeling is a temporary Zerg unit spawned by an Overseer that lasts for 150 seconds. The Changeling spawns as a Zerg-looking unit, but upon seeing an enemy unit or building it will automatically transform into the basic unit of that enemy's race (Marine, Zergling, or Zealot).",
+    "race": "ZERG"
+  },
+  {
+    "_id": "cf998cd0-d4e6-473f-bb0a-8791b166d0af",
+    "name": "Corruptor",
+    "description": "The Corruptor is a flying Zerg unit that has strong anti-air capabilities but slow speed. They are also distinguished from Mutalisk by their greater range and huge health pool, as well as their inability to attack ground. They are effective in any case where they can force engagements: against capital ships, for example; inversely, when they cannot, and especially when they are outranged, as by Phoenixes, they tend to be a weak air unit for that situation.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "480f6d83-e061-4367-bc5c-e87f2ac23694",
+    "name": "Hydralisk",
+    "description": "The Hydralisk is a ranged Lair-tech unit that can be after building a Hydralisk Den. The Hydralisk's fast attack and high damage make it effective at dealing consistent to ground and air unit in the game. Can morph into the Lurker after morphing the Hydralisk Den into a Lurker Den.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "6f6b2313-f45a-40d4-8276-c894392914f8",
+    "name": "Infestor",
+    "description": "The Infestor is an offensive spellcaster, meaning that its abilities are used to harm enemy units rather than support the player's units. It can be built after the Zerg player has an Infestation Pit. Infestors have three abilities: Neural Parasite, Fungal Growth, and Infested Terran. They can move while burrowed if Burrow is researched, but with a small collision radius.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "5c9518c4-74ed-473e-aa78-3077d09d2276",
+    "name": "Larva",
+    "description": "The Larva is the base unit for Zerg. It can morph into a lot of units. There can be a maximum of 19 Larva on one Hatchery. Additional Larvae produced at that Hatchery instantly die.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "f178064f-d8ad-4561-94cd-68d4a31b3560",
+    "name": "Locust",
+    "description": "The Locust is a timed life unit that is spawned in pairs by a Swarm Host. After spawning, Locusts begin in their flying form, and though unable to attack, can fly over terrain and use the Swoop ability to land and engage targets. The Spawn Locust ability has a cooldown of 43 seconds after birthing Locusts.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "f5bceeb0-ffd8-43f0-b9a6-95041cc36cbc",
+    "name": "Lurker",
+    "description": "The Lurker is a Zerg unit that may attack only when burrowed, and are able to burrow without the mutation being evolved. A Hydralisk can be morphed to a Lurker, but a Lurker Den is required. The Lurker deals damage to all enemy units and buildings that enter the line splash radius, similar to a Hellion. Each spine that spikes out of the ground is an individual splash zone.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "e034a971-6b83-4d59-807e-a902dc62d35a",
+    "name": "Mutalisk",
+    "description": "The Mutalisk is an extremely fast air attack unit capable of attacking both air and ground units. The Mutalisk's projectile, called 'Glaive Wurm', hits the target and then two subsequent targets (each for a third of the damage of the previous hit). Mutalisks make effective scouts and skirmishers, able to slow/disrupt mining operations, incoming forces, or enemy expansions.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "fca5cf39-252b-436a-8c94-22913e8f560b",
+    "name": "Nydus Worm",
+    "description": "The Nydus Worm is a Zerg structure used to move units quickly around the map. In LotV, the Nydus Worm was changed. Nydus Worms are invincible while emerging. The main effect of this change is that workers will no longer be a viable defense against nydus worms.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "cc85cfa8-5ed3-4d16-8d95-b1fffa1956e9",
+    "name": "Overlord",
+    "description": "The Overlord is the Zerg's supply unit and is the equivalent of the Terran's Supply Depot and the Protoss Pylon. The Overlord provides the Zerg player with 8 supply. More must be built to create additional units.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "16004047-b7aa-42b6-8fbe-c6fe433ea4a2",
+    "name": "Overseer",
+    "description": "The Overseer is a Zerg unit that is morphed from an Overlord. The Overseer has some abilities which the Overlord does not have: the ability to Detect invisible units, spawn Changelings and Contaminate. The Overseer is extremely useful for scouting and detecting enemy units/positions. The Overseer moves faster than the Overlord and also receives the benefit of the Pneumatized Carapace upgrade.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "21b14399-e771-4ad7-8cc1-8875ec5ca692",
+    "name": "Queen",
+    "description": "The Queen is an essential unit for the Zerg base, capable of being spawned from any Hatchery after a Spawning Pool has been built. The unit provides light defense against both ground and air threats.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "57ed218d-abc4-4cb5-adc5-8e1600f32de5",
+    "name": "Ravager",
+    "description": "The Ravager is a ground Zerg unit, morphed out of the Roach. Its effectiveness heavily relies on player micro due to its corrosive bile ability. This ability can destroy Force Fields and can be used for harassment, e.g. if the spell is cast on workers (mineral line).",
+    "race": "ZERG"
+  },
+  {
+    "_id": "290df510-81db-4964-9cbf-05f9c6511d3f",
+    "name": "Roach",
+    "description": "The Roach is an Armored-ground unit that can be produced after a Roach Warren has been built. With the Tunneling Claws upgrade, the Roach becomes one of two units (the other being the Infestor) that is able to move while burrowed. This is also indicated by the appearance of crystals on the backs of the Roaches.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "fa1dae50-5e1a-4dc1-88b3-70ed78979ce5",
+    "name": "Swarm Host",
+    "description": "The Swarm Host is a Zerg siege unit that requires an Infestation Pit. It attacks in the form of waves of two Locusts that spawn with a manually cast ability. The Locusts are slow moving ground-to-ground units with a timed life that nonetheless extend the range of the Swarm Host beyond that of any other unit. The Locusts are able to spawn as flying units.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "3894ffae-c286-452a-8442-774d306752a9",
+    "name": "Ultralisk",
+    "description": "The Ultralisk is the Zerg's toughest late-game unit in StarCraft II. It can only be made once the Hive is researched and an Ultralisk Cavern is made.",
+    "race": "ZERG"
+  },
+  {
+    "_id": "7f95432d-29bc-4da1-bdc3-dbb07c16a3cd",
+    "name": "Viper",
+    "description": "The Viper is a Zerg flying support caster that requires a Hive. The Viper does not attack. Instead, it uses its spells to disrupt the positioning of enemy units. The Viper is particularly effective against entrenched positions and clustered armies. It can also separate high value targets such as Thors and Colossi from a group so they can be surrounded and killed more easily.",
+    "race": "ZERG"
+  }
+]
