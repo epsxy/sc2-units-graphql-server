@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "node src/index.js",
-    "mongo": "mongo sc2graphql --eval \"db.dropDatabase()\" && mongoimport --db sc2graphql --collection races --type json --file db/races.json --jsonArray",
+    "mongo": "mongo sc2graphql --eval \"db.dropDatabase()\" && mongoimport --db sc2graphql --collection races --type json --file db/races.json --jsonArray && mongoimport --db sc2graphql --collection units --type json --file db/protoss.json --jsonArray && mongoimport --db sc2graphql --collection units --type json --file db/zerg.json --jsonArray && mongoimport --db sc2graphql --collection units --type json --file db/terran.json --jsonArray",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
