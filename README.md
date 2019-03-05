@@ -14,6 +14,8 @@ Go to `http://localhost:3000/graphiql`
 
 Requests: 
 
+### Races
+
 ```
 {
     races {
@@ -21,6 +23,19 @@ Requests:
         name
         description
         type
+    }
+}
+```
+
+### Units
+
+```
+{
+    units(race: PROTOSS|TERRAN|ZERG) {
+        _id
+        name
+        description
+        race
     }
 }
 ```
@@ -46,3 +61,7 @@ StarCraft® II: Wings of Liberty®
 
 StarCraft® II: Heart of the Swarm®
 ©2013 Blizzard Entertainment, Inc. All rights reserved. Heart of the Swarm and StarCraft are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.
+
+### Liquipedia
+
+Some ressources of this application (images, descriptions, informations, ...) came from [Liquipedia Starcraft Encyclopedia](http://wiki.teamliquid.net/starcraft2/).
