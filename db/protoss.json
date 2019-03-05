@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "561c1565-5c53-4590-a19f-fdd823c8b05f",
+    "name": "Probe",
+    "description": "The Probe is the Protoss worker unit, warped in at the Nexus. It harvests resources, has a low-powered melee attack, and can warp-in any Protoss building. All Protoss buildings other than a Pylon, Nexus, and Assimilator must be built within power range from a nearby Pylon or Warp Prism. Unlike its Terran and Zerg counterparts, the Probe does not have to remain in place to keep working on a building being warped in, and it instead can perform other tasks, such as warping in more buildings or returning to harvest resources.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "9d0d5fb0-aae9-4d27-96b7-a9fb12359224",
+    "name": "Zealot",
+    "description": "The first and strongest unit of direct army attacks. A strong brute-force unit and excellent mineral dump as well.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "dddfece1-11c1-4172-a8e7-d6021b8a65b2",
+    "name": "Stalker",
+    "description": "The Stalker is a fast-moving, ranged Protoss ground unit, capable of hitting both air and ground targets. They are warped in at the Gateway, and require a Cybernetics Core.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "e98ec44c-d200-48be-bc4b-1f72148967fa",
+    "name": "Sentry",
+    "description": "The Sentry is an unusual Protoss spell-casting unit produced from the Gateway after the Cybernetics Core has been built. The Sentry's spells are very powerful: Force Field, Guardian Shield, and Hallucination. These spells — Force Field in particular - are considered essential capabilities in almost all Protoss strategies.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "d8064e9a-f340-49e6-9f88-08d0b36ed72e",
+    "name": "Adept",
+    "description": "The Adept is a ranged Protoss ground unit with a ground-only attack, which is warped in at the Gateway.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "12bb559e-0fea-4142-ae4a-51e6fdb68e32",
+    "name": "High templar",
+    "description": "The High Templar (often abbreviated to HT) is a spell-casting unit for the Protoss. The High Templar is warped in from a Gateway, with the Templar Archives as a prerequisite. High Templar can cast Feedback to damage and drain the energy of enemy spellcasters. After an upgrade, High Templar can cast the devastating Psionic Storm spell, wreaking damage to all units in an area of effect. Finally, any two High Templar and/or Dark Templar can merge to form an Archon.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "016e5e5e-bd77-4d4c-8c2f-b6fdddb554ef",
+    "name": "Dark templar",
+    "description": "The Dark Templar (often abbreviated to DT) is a permanently cloaked Protoss assassin and a huge disruption to most standard builds for both sides. Dark Templar are warped-in at the Gateway after a Dark Shrine is built.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "61d533f7-ffab-4551-ba67-7d2cb2fb2705",
+    "name": "Archon",
+    "description": "The Archon is a powerful Protoss short-range unit. It excels against biological units and structures. An Archon is created when two of either Dark Templar or High Templar merge together on the battlefield; the Archon cannot be produced at any building. Archons can attack air or ground units and deal area-of-effect damage.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "ed68d519-0241-41df-b65a-deed3f705933",
+    "name": "Observer",
+    "description": "The Observer is a flying cloaked spy drone and Detector for the Protoss, built at the Robotics Facility. It is permanently cloaked, so opponents need detection in order to see and kill the Observer.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "18039ef0-3ad8-4e96-a36b-589c174bfdcf",
+    "name": "Warp prism",
+    "description": "The Warp Prism is a Protoss transport unit, produced at the Robotics Facility. In Legacy of the Void, it can pickup units from a larger distance (6 range away). The Warp Prism can shuttle up to eight cargo of Protoss units while in Transport Mode (see table below). Unlike other transports, the Warp Prism can convert to Phasing Mode, which renders it stationary while it provides the Psionic Matrix in an area around it. This allows units from Warp Gates to warp in around the Warp Prism, and it can even allow buildings to be powered or warped in without the need for a nearby Pylon.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "b89b859f-ab83-4c8d-8aab-6568644a5615",
+    "name": "Immortal",
+    "description": "The Immortal is a powerful, ranged, mechanized assault strider for the Protoss army, produced at the Robotics Facility. Their Barrier ability makes them specialists at dealing with any high-powered armored unit whose attack deals a large amount of damage such as Siege Tanks, Ultralisks, or Marauders.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "c068f4c4-1fff-4cd0-8279-48c2c55a8ab3",
+    "name": "Colossus",
+    "description": "The Colossus is a massive Protoss battle strider that towers over all other ground units on the battlefield.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "a7924399-9328-4c57-a540-d41d978e0a76",
+    "name": "Disruptor",
+    "description": "The Disruptor is a robotic disruption unit. The Disruptor is extremely potent versus any force that clumps its units together, as well as against worker lines.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "ba69a654-54a6-4ec2-b152-d4fe3f6c88a4",
+    "name": "Phoenix",
+    "description": "The Phoenix is a speedy Protoss air-to-air fighter, which warps in at the Stargate. Phoenixes can attack other air units while moving, granting an upper hand against enemy air units that rely on hit and away tactics.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "5a44114a-64c1-4b83-a4e3-3a4185cada1a",
+    "name": "Void ray",
+    "description": "The Void Ray is an airborne siege cannon for the Protoss that is built at the Stargate.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "a103d97a-7874-492a-b3d6-228dd2d793e8",
+    "name": "Oracle",
+    "description": "The Oracle is a flying harassment and support caster for the Protoss that is produced from the Stargate. While fairly expensive and fragile, the Oracle is a very mobile unit and has several useful spells.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "8164e64c-749f-4935-bd19-0ed04f936f7a",
+    "name": "Tempest",
+    "description": "The Tempest is a powerful capital ship for the Protoss that can be built from the Stargate once the Fleet Beacon has been completed. Its primary role is as a heavy bombardment unit, using its incredible range to attack air and ground targets from a safe distance.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "47cda414-e0da-4fcd-bad9-7ca790f5e356",
+    "name": "Carrier",
+    "description": "Carriers are the capital ships in the Protoss air force, built at the Stargate with the Fleet Beacon as a prerequisite. Unlike other units, Carriers do not engage the enemy directly. Instead, they launch tiny Interceptors that attack in a swarm around the Carrier.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "20a12231-62ea-4a43-bb78-78d785e50374",
+    "name": "Interceptor",
+    "description": "The Interceptor is a small, autonomous flying unit that gives the Protoss Carrier its offensive capabilities. Each Carrier warps in with an initial set of 4 Interceptors that can attack immediately. Additional Interceptors are trained in the Carrier itself. Each Carrier can support a maximum of 8 Interceptors at any one time. Unlike most offensive units, Interceptors require no supply points.",
+    "race": "PROTOSS"
+  },
+  {
+    "_id": "ece6dc81-08e6-40e8-a0a0-356981eb36e5",
+    "name": "Mothership",
+    "description": "The Mothership is the most powerful unit in the Protoss arsenal: Once a Fleet Beacon has been built, it may be transformed from the Mothership Core. Because of its extensive capabilities, the Mothership has a unique restriction: only one can be deployed by each player at a time.",
+    "race": "PROTOSS"
+  }
+]
